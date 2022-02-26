@@ -12,13 +12,14 @@
     <header class="header">
         <a href="#" class="logo">Puddin In Work</a>
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#team">Team</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#home" onclick="toggle()">Home</a></li>
+            <li><a href="#about" onclick="toggle()">About</a></li>
+            <li><a href="#services" onclick="toggle()">Services</a></li>
+            <li><a href="#portfolio" onclick="toggle()">Portfolio</a></li>
+            <li><a href="#team" onclick="toggle()">Team</a></li>
+            <li><a href="#contact" onclick="toggle()">Contact</a></li>
         </ul>
+        <div class="toggle" onclick="toggle()"></div>
     </header>
     <!-- Banner -->
     <section class="banner" id="home">
@@ -139,8 +140,96 @@
         </div>
     </section>
     <!-- Team -->
+    <section class="sec" id="team">
+        <div class="content">
+            <div class="mxw">
+                <h3>Meet Our Experts</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto veritatis odio quos facere!</p>
+            </div>
+            <div class="teamBx">
+                <div class="member">
+                    <div class="imgBx">
+                        <img src="/images/1.jpg" alt="">
+                    </div>
+                    <div class="details">
+                        <div>
+                            <h2>John Doe<br><span>Creative Director</span></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="imgBx">
+                        <img src="/images/2.jpg" alt="">
+                    </div>
+                    <div class="details">
+                        <div>
+                            <h2>John Doe<br><span>Creative Director</span></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="imgBx">
+                        <img src="/images/3.jpg" alt="">
+                    </div>
+                    <div class="details">
+                        <div>
+                            <h2>John Doe<br><span>Creative Director</span></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="imgBx">
+                        <img src="/images/4.jpg" alt="">
+                    </div>
+                    <div class="details">
+                        <div>
+                            <h2>John Doe<br><span>Creative Director</span></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Contact -->
-
+    <section class="sec contact" id="contact">
+        <div class="content">
+            <div class="mxw">
+                <h3>Send Us A Message</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
+            <div class="contactForm">
+                    <form action="">
+                        <div class="row100">
+                            <div class="inputBx50">
+                                <input type="text" placeholder="Full Name">
+                            </div>
+                            <div class="inputBx50">
+                                <input type="text" placeholder="E-Mail">
+                            </div>     
+                        </div>
+                        <div class="row100">
+                            <div class="inputBx100">
+                              <textarea placeholder="Message"></textarea>
+                            </div>   
+                        </div>
+                        <div class="row100">
+                            <div class="inputBx100">
+                                <input type="submit" value="Send">
+                            </div>
+                        </div>
+                </form>
+            </div>
+            <div class="sci">
+                <ul>
+                    <li><a href=""><img src="/images/facebook.png" alt=""></a></li>
+                    <li><a href=""><img src="/images/twitter.png" alt=""></a></li>
+                    <li><a href=""><img src="/images/linkedin.png" alt=""></a></li>
+                </ul>
+            </div>
+             <p class="copyright">
+            Designed by Online Tutorials, developed by <a href="https://twitter.com/rico042002">@Rico042002</a></p>
+             </div>
+    </section>
     <script src="/script.js"></script>
 </body>
 </html>
